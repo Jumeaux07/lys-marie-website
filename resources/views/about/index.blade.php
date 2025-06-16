@@ -1,0 +1,7 @@
+@extends('layouts.app')
+@section('content')
+    @include('layouts.partials.nav')
+    @include('layouts.partials.bredcrumbs')
+    @include('about.about_about')
+    @include('home.teams')
+    @include('home.partenaires')

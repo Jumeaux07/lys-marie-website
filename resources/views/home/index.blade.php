@@ -1,0 +1,10 @@
+@extends('layouts.app')
+@section('content')
+    @include('layouts.partials.nav')
+    @include('home.banner')
+    @include('home.about')
+    @include('home.propertie')
+    @include('home.video')
+    @include('home.divscover')
+    @include('home.partenaires')
+@endsection
